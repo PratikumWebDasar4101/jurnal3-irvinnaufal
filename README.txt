@@ -16,6 +16,7 @@ dan tampilkan gambar hasil upload
 </center>
 </html>
 <?php
+mkdir("upload");
 $file = $_FILES['dokumen'];
 $nama_file = $file['name'];
 $nama_tmp = $file['tmp_name'];
