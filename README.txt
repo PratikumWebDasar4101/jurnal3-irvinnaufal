@@ -8,7 +8,7 @@ dan tampilkan gambar hasil upload
 	<title></title>
 </head>
 <body>
-<form action="Praktikum.html" method="post" enctype="multipart/form-data">
+<form action="Praktikum.php" method="post" enctype="multipart/form-data">
 <input name="dokumen" type="file" id="dokumen"/>
 <input type="submit" name="upload" id="upload" value="Upload" />
 </form>
